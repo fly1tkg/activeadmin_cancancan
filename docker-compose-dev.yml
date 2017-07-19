@@ -1,0 +1,10 @@
+version: '2'
+
+volumes:
+  sync-volume:
+    external: true
+
+services:
+  rails:
+    volumes:
+      - sync-volume:/opt/src/app:nocopy

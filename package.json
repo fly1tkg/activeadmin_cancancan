@@ -1,0 +1,5 @@
+{
+  "name": "activerecord_cancancan",
+  "private": true,
+  "dependencies": {}
+}
